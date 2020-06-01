@@ -1,0 +1,167 @@
+@media (min-width: 1280px) and (max-width:2000px) {
+  .pairant_nav_hidden{
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width:1280px) {
+/*nav bar*/
+  .pairant_nav_hidden{
+   display: none;
+}
+}
+/*\////////////////////medeam screen//////////////////////////////////////////*/
+@media (min-width: 768px) and (max-width:1024px) {
+.pairant_nav_hidden{
+  display: none;
+}
+
+}
+/*////////////////////////small screen////////////////////////////////////////////*/
+
+@media (min-width: 481px) and (max-width:767px) {
+  .pairant_nav{ 
+    display: none
+    }
+    
+    /*start home*/
+    .pair_single{
+      background: 0;
+      width: 100%;
+      height: 100vh;
+    }
+    
+    .pair_single div:first-of-type{
+      width: 100%;
+      height: 80%;
+      background-image: url(../../img100/gym19.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat
+    }
+    .pair_single div:nth-of-type(2){
+      width: 100%;
+      height: 80%;
+      background-image: url(../../img100/gym2.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat
+    }
+
+    .pair_single div:nth-of-type(3){
+      width: 100%;
+      height: 80%;
+      background-image: url(../../img100/gym23.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat
+    }
+
+    .o #span , .oo #span2 ,.ooo #span3{
+      text-align: center;
+      left: 50%;
+      transform: translateX(-50%);  
+    }
+    .o #h1 , .oo #h12 ,.ooo #h13{
+      text-align: center;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 40px;
+    }
+    
+    .o #button , .oo #button2 ,.ooo #button3
+    {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70%;
+    }
+    .o #p , .oo #p2 ,.ooo #p3
+    {
+      position: absolute;
+      top: -15%;
+    }
+    
+
+
+}
+    
+/*////////////////////////smallest screen////////////////////////////////////*/
+@media (min-width: 300px) and (max-width:480px) {
+    /* start navbar*/
+    .pairant_nav{ 
+      display: none
+      }
+      
+      .pairant_nav{ 
+        display: none
+        }
+        
+        /*start home*/
+        .pair_single{
+          background: 0;
+          width: 100%;
+          height: 100vh;
+        }
+        
+        .pair_single div:first-of-type{
+          width: 100%;
+          height: 80%;
+          background-image: url(../../img100/gym19.png);
+          background-attachment: fixed;
+          background-position: bottom 0px left ;
+          background-size: cover;
+          background-repeat: no-repeat
+        }
+        .pair_single div:nth-of-type(2){
+          width: 100%;
+          height: 80%;
+          background-image: url(../../img100/gym2.png);
+          background-attachment: fixed;
+          background-position: bottom 0px left;
+          background-size: cover;
+          background-repeat: no-repeat
+        }
+    
+        .pair_single div:nth-of-type(3){
+          width: 100%;
+          height: 80%;
+          background-image: url(../../img100/gym23.png);
+          background-attachment: fixed;
+          background-position: bottom 0px left;
+          background-size: cover;
+          background-repeat: no-repeat
+        }
+    
+        .o #span , .oo #span2 ,.ooo #span3{
+          width: 100%;
+          text-align: center;
+          left: 50%;
+          transform: translateX(-50%);  
+        }
+        .o #h1 , .oo #h12 ,.ooo #h13{
+          text-align: center;
+          left: 50%;
+          font-size: 30px;
+          transform: translateX(-50%);
+        }
+        
+        .o #button , .oo #button2 ,.ooo #button3
+        {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 80%;
+        }
+        .o #p , .oo #p2 ,.ooo #p3
+        {
+          position: absolute;
+          top: -15%;
+        }
+
+      
+}
+

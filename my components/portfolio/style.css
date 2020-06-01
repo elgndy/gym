@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+/*start nav hidden*/
+.pairant_nav_hidden{
+    background: #000;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 520220;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 5% 7%;
+    height: 90px;
+    transition: all .3s
+  
+  }
+  /*////////////////// nav head */
+  /*part one*/ 
+  .p_icon2_hidden{
+    float: left;
+    width: 70%;
+    font-size: 22px;
+    color: #fff;
+  }
+  
+  .p_icon2_hidden i{
+    color: crimson;
+    font-size: 30px;
+  }
+  /*part two*/
+  .nav_logo .open_hidden{
+    float: right;
+    width: 30%;
+    height: 40px;
+    position: relative;
+    top:0;
+    padding: 5px;
+  }
+  
+  .span1_hidden{
+    position: absolute;
+    top:15px;
+    right: 0;
+    width: 70px;
+    display: block;
+    padding: 1px;
+    background: #fff;
+    transition: all .5s;
+  }
+  
+  .span2_hidden{
+    position: absolute;
+    top:15px;
+    right: 0;
+    width: 70px;
+    margin-top: 11px;
+    display: block;
+    padding: 1px;
+    background: #fff;
+    transition: all .5s;
+  }
+  
+  .open_hidden:hover > .span2_hidden {
+    width: 35px;
+    transition: all .5s;
+  }
+  .open_hidden:hover > .span1_hidden{
+    width: 50px;
+    transition: all .5s; 
+  } 
+  
+  .nav_items{
+    color:#fff;
+    margin-top: 70px;
+  }
+  
+  .nav_items ul li{
+    list-style: none;
+    padding: 4% 0;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    translate: all .3 ease-in-out
+  }
+  
+  .nav_items ul li:hover{
+    color:#bbb;
+    transition: all .3s ease-in-out;
+  }
+  
+  .arro_link{
+    float: right;
+    font-size: 14px;
+  }
+  
+  .nav_items ul li div{
+    display: none;
+    padding-left: 5%;
+    margin-top: 2%;
+  }
+  .nav_items ul li div a{
+    display: block;
+    padding: 2% 0;
+    color: #fff;
+    width: 100px;
+    border-bottom-width: 0px;
+  }
+  
+  .nav_items ul li div a:hover{
+    border-bottom-width: 20px;
+    border-bottom: .5px dashed #eee;
+    transition: all .3 ease-in-out
+  }
+  /* items */
+  /*end nav hidden*/
+
+  /*start nav bar_big*/
+.pairant_nav{
+  
+    position: absolute;
+    top:0;
+    left:0;
+    background:0;
+    width:100%;
+    z-index:1000000;
+  }
+  
+  .big{
+    font-size: 70px;
+    position: absolute;
+    top: 27%;
+    left: 37%;
+    font-family: 'Kumar One Outline', cursive;
+    color: #fff;
+    opacity: .1;
+    transform: rotate(0deg);
+    letter-spacing: 15px;
+  }
+  .anim_nav{
+    animation-name: ttopp;
+    animation-duration: .5s;
+  }
+  @keyframes ttopp {
+    from{
+      top:-50px;
+    }
+    to{
+      top: 0
+    }
+  }
+  
+  .logo{
+    float:left;
+      cursor: pointer;
+      padding:5px;
+      font-size:25px;
+      color:#fff;
+      margin-top:5px;
+      padding-left:40px;
+  }
+  
+  .logo i {
+    color: crimson;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 40px;
+    transition: all .5s;
+  }
+  
+  .pairant_nav ul {
+      float:right ;
+      color:#fff;
+      padding-right:50px;
+      background:0;
+  }
+  
+  .pairant_nav ul li{
+    opacity: 0;
+      list-style:none;
+      float:left;
+      text-align:center;
+      width:100px;
+      padding:10px 0px;
+      cursor: pointer;
+      padding:40px 13px;
+      font-size:15px;
+      letter-spacing: 2px;
+  }
+  .pairant_nav ul li:last-of-type{
+    opacity: 1;
+  }
+  .same{
+      position: absolute;
+      z-index:95;
+      background:#000;
+      width:230px;
+      padding: 10px 25px;
+      box-shadow: 0px 0px 15px inset #444
+  }
+  
+  .same a{
+      display:block;
+      color:#fff;
+      text-align: left;
+      padding: 10px 2px;
+      cursor:pointer;
+      color:#aaa;
+      transition:all .3s ease-in-out  
+  }
+  
+  .same a:hover{
+    transition:all .3s ease-in-out;
+          color:#fff
+  }
+  
+  .home_links{
+      display: none;
+      top:100px;
+      right:610px;
+  }
+  .a{
+    padding-bottom: 50px;
+  }
+  
+   .home:hover > .home_links{
+    display: block;
+    
+  }
+  
+  .pages_links{
+      display: none;
+      top:100px;
+      right:500px;
+  }
+  .pages:hover > .pages_links{
+    display: block
+  }
+  
+  .port_links{
+    display: none;
+      top:100px;
+      right:400px;
+  }
+  
+  .port:hover > .port_links{
+    display: block;
+  }
+  
+  .shop_links{
+    display: none;
+      top:100px;
+      right:200px;
+  }
+  
+  .shop:hover > .shop_links{
+    display: block;
+  }
+  
+  .event_links{
+    display: none;
+    top:100px;
+    right:114px;
+  }
+  
+  .event:hover > .event_links{
+    display: block;
+  }
+  .span1{
+    width: 70px;
+    display: block;
+    padding: 1px;
+    background: #fff;
+    transition: all .5s;
+  }
+  
+  .span2{
+    width: 70px;
+    margin-top: 11px;
+    display: block;
+    padding: 1px;
+    background: #fff;
+    transition: all .5s;
+  }
+  
+  .open:hover > .span2 {
+    width: 35px;
+    transition: all .5s;
+  }
+  .open:hover > .span1{
+    width: 50px;
+    transition: all .5s; 
+  }
+/* end nav bar_big*/
+
+/*start home*/
+  .pair_single{
+    background-image: url(../../img100/gym19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+.bacani{
+  animation: bac 1s;
+}
+@keyframes bac {
+  from{
+
+    opacity: 0;    
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+  .pair_single div{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    width: 33.333%;
+    border: .1px solid rgb(126, 126, 126);
+    height: 100%;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    background: rgba(0, 0, 0, .2);
+  }
+  .o , .oo , .ooo{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate( -30% , -50%)
+  }
+  .o #span , .oo #span2 ,.ooo #span3{
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translateX(-90%);
+    opacity: 0;
+    letter-spacing: 3px;
+    font-size: 14px;
+  }
+  .o #h1 , .oo #h12 ,.ooo #h13{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-top: 0%;
+  }
+
+  .o #button , .oo #button2 ,.ooo #button3
+  {
+    opacity: 0;
+    position: absolute;
+    top:80%;
+    left: 53%;
+    transform: translateX(-70%);
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid white;
+    background: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 19px;
+    width: 47%;
+  }
+  .o button:hover , .oo button:hover ,.ooo button:hover{
+    background: #000;
+    transition: all .3s ease-in-out
+  }
+  .o #p , .oo #p2 ,.ooo #p3
+  {
+    position: absolute;
+    top: 9%;
+    left: -47%;
+    font-size: 200px;
+    z-index: -1;
+    opacity: .1;
+    color: #eee;
+    font-family: 'Kumar One Outline', cursive;
+  }
+/*end home*/
+
+/*small*/
+
+.pair_single{
+    background-image: url(../../img100/gym19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+.bacani{
+  animation: bac 1s;
+}
+@keyframes bac {
+  from{
+
+    opacity: 0;    
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+  .pair_single div{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    width: 33.333%;
+    border: .1px solid rgb(126, 126, 126);
+    height: 100%;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    background: rgba(0, 0, 0, .2);
+  }
+  .o , .oo , .ooo{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate( -30% , -50%)
+  }
+  .o #span , .oo #span2 ,.ooo #span3{
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translateX(-90%);
+    opacity: 0;
+    letter-spacing: 3px;
+    font-size: 14px;
+  }
+  .o #h1 , .oo #h12 ,.ooo #h13{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-top: 0%;
+  }
+
+  .o #button , .oo #button2 ,.ooo #button3
+  {
+    opacity: 0;
+    position: absolute;
+    top:80%;
+    left: 53%;
+    transform: translateX(-70%);
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid white;
+    background: 0;
+    padding: 15px;
+    color: #fff;
+    font-size: 19px;
+    width: 47%;
+  }
+  .o #button:hover , .oo #button:hover ,.ooo #button:hover{
+    background: #000;
+    transition: all .3s ease-in-out
+  }
+  .o #p , .oo #p2 ,.ooo #p3
+  {
+    position: absolute;
+    top: 9%;
+    left: -47%;
+    font-size: 200px;
+    z-index: -1;
+    opacity: .1;
+    color: #eee;
+    font-family: 'Kumar One Outline', cursive;
+  }
+/*end home*/
+.loading{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left: 0;
+  background: 0;
+  z-index: 720220;
+  opacity: 1;
+}
+.loading div{
+  z-index: 920220;
+  width: 40%;
+  margin: auto;
+  background: #ccc;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translateY(-50%) translateX(-50%)
+}
+.loading div span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: #fff;
+  animation: load 7s;
+}
+@keyframes load {
+  from{
+    width: 0
+  }to{
+    width: 100%;
+  }
+}
+.l{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  float: left;
+  height: 100%;
+  background:#000;
+  z-index: 70000;
+}
+.r{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  float: left;
+  height: 100%;
+  background:#000;
+  z-index: 70000;
+}
+body{
+  overflow-x: hidden;
+}

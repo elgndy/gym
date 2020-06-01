@@ -1,0 +1,208 @@
+@media (min-width: 1280px) and (max-width:2000px) {
+
+}
+
+@media (min-width: 1025px) and (max-width:1280px) {
+  .pairant2{
+    height: 85vh; 
+   }
+   .all{   
+     height: 85vh;
+   }
+
+}
+/*\////////////////////medeam screen//////////////////////////////////////////*/
+@media (min-width: 768px) and (max-width:1024px) {
+   /*start animation home */
+.slider_home{
+  height: 100vh;/**/
+}
+nav{
+  min-height: 0vh;/**/
+}
+nav{
+  min-height: 10vh;
+}
+section{
+  height: 87vh;/**//**/
+}
+.lin{
+  left: 0%;
+  z-index: 10;
+  font-size: 30px;
+}
+
+.one{ 
+  height: 45%;
+}
+.two{
+  top: 77%;
+  height: 30%;
+}
+.three{
+  top: 77%;
+  height: 30%
+}
+
+/*start animation home */
+  .pairant2{
+    height: 75vh; 
+   }
+   .all{   
+     height: 75vh;
+   }
+}
+/*////////////////////////small screen////////////////////////////////////////////*/
+
+@media (min-width: 481px) and (max-width:767px) {
+  .pairant_nav{
+    display: none
+  }  
+  /*start animation home */
+.slider_home{
+  height: 90vh;/**/
+}
+nav{
+  min-height: 0vh;/**/
+}
+section{
+  height: 77vh;/**//**/
+}
+.lin{
+  left: 0%;
+  z-index: 10;
+  font-size: 30px;
+}
+/*start animation home */
+
+/*start home screen_slider*/
+.pairant{
+  margin-top: 0%;/**/
+  height: 100vh;/**/
+}
+.one{ 
+  width: 65%;/**/
+  height: 40%;/**/
+  top: 18%;/**/
+}
+@keyframes scal {
+  from{
+      width: 64.5.5%;
+  }to{
+      width: 65%
+  }
+}
+@keyframes scal2 {
+  from{
+      width: 29.5%;
+  }to{
+      width: 30%
+  }
+}
+@keyframes scal3 {
+  from{
+      width: 49.5%;
+  }to{
+      width: 50%
+  }
+}
+.two{
+  width: 30%;/**/
+  height: 35%;/**/
+  top: 87%;/**/
+  right: 0%;/**/
+}
+.three{
+  width: 50%;/**/
+  height: 30%;
+  top: 85%;
+  left: 13%;
+}
+/*===================*/
+.pairant2{
+ height: 85vh; 
+}
+.all{   
+  height: 85vh;
+}
+
+/*end home*/
+
+}
+    
+/*////////////////////////smallest screen////////////////////////////////////*/
+@media (min-width: 300px) and (max-width:480px) {
+  .pairant_nav{
+    display: none
+  }  
+  /*start animation home */
+.slider_home{
+  height: 90vh;
+}
+nav{
+  min-height: 0vh;
+}
+section{
+  height: 78vh;
+}
+.lin{
+  left: 5%;
+  z-index: 10;
+  font-size: 20px;
+}
+/*start animation home */
+
+/*start home screen_slider*/
+.pairant{
+  margin-top: 0%;/**/
+  height: 90vh;/**/
+}
+.one{ 
+  width: 85%;/**/
+  height: 40%;/**/
+  top: 21%;/**/
+}
+@keyframes scal {
+  from{
+      width: 85.5%;
+  }to{
+      width: 85%
+  }
+}
+@keyframes scal2 {
+  from{
+      width: 29.5%;
+  }to{
+      width: 30%
+  }
+}
+@keyframes scal3 {
+  from{
+      width: 49.5%;
+  }to{
+      width: 50%
+  }
+}
+.two{
+  width: 30%;/**/
+  height: 25%;/**/
+  top: 87%;/**/
+  right: 0%;/**/
+}
+.three{
+  width: 50%;/**/
+  height: 25%;
+  top: 85%;
+  left: 13%;
+}
+/*===================*/
+.pairant2{
+ height: 50vh; 
+}
+.all{   
+  height: 50vh;
+}
+
+/*end home*/
+}
+
